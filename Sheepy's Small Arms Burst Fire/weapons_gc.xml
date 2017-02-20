@@ -28,7 +28,7 @@
 		<BurstFire accuracy="65" MODMERGE="update" />
 	</Weapon>
 
-	<!-- I did say ALL pistols and rifles.  Already less big an improvement than human.  Good luck. -->
+	<!-- I did say ALL pistols and rifles.  Already a lesser improvement than human.  Good luck. -->
 	<Weapon name="weapon.AlienPlasmaPistol" MODMERGEATTRIBUTE="name">
 		<BurstFire ap="60" accuracy="45" sound="Weapon Plasma Pistol Burst" delay="1" burstdelay="0.2" shotCount="3" suppressionValue="60" suppressionRadius="1" MODMERGE="insertreplace"/>
 	</Weapon>
