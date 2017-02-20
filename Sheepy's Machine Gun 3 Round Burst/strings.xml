@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>Solver</Author>
+<LastAuthor>Sheepy</LastAuthor>
+<Created>2011-04-13T20:36:37Z</Created>
+<LastSaved>2017-02-20T18:12:57Z</LastSaved>
+<Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+<AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight>9720</WindowHeight>
+<WindowWidth>19590</WindowWidth>
+<WindowTopX>0</WindowTopX>
+<WindowTopY>0</WindowTopY>
+<TabRatio>214</TabRatio>
+<DisplayDrawingObjects>PlaceHolders</DisplayDrawingObjects>
+<RefModeR1C1/>
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+ <Alignment ss:Vertical="Bottom"/>
+ <Borders/>
+ <Interior/>
+ <NumberFormat/>
+ <Protection/>
+</Style>
+ </Styles>
+ <Worksheet ss:Name="strings">
+<Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="8" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+ <Column ss:AutoFitWidth="0" ss:Width="246"/>
+ <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.machinegun.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic Machinegun:&lt;/b&gt;&#10;&#10;Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.&#10;&#10;They are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 60 STR (due to the 60 Recoil). &#10;&#10;Range:                                                    25&#10;Damage:                                                 30 Kinetic&#10;Suppression:                                           40 Snap / 120 Burst&#10;Mitigation:                                                5&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   0.5x&#10;Recoil:                                                     60 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 45%% TU                                                50 Acc x 3 shots&#10;- 80%% TU                                                35 Acc x 9 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.scatterlaser.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Scatter Laser:&lt;/b&gt;&#10;&#10;Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.&#10;&#10;They are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 60 STR (due to the 60 Recoil). &#10;&#10;Range:                                                    25&#10;Damage:                                                 45 Energy&#10;Suppression:                                           45 Snap / 135 Burst&#10;Mitigation:                                                8&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   0.5x&#10;Recoil:                                                     60 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 45%% TU                                                50 Acc x 3 shots&#10;- 80%% TU                                                35 Acc x 9 shots</Data></Cell>
+ </Row><Row>
+  <Cell><Data ss:Type="String">weapon.plasmacaster.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Plasma Caster:&lt;/b&gt;&#10;&#10;Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.&#10;&#10;They are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 60 STR (due to the 60 Recoil). &#10;&#10;Range:                                                    25&#10;Damage:                                                 70 Energy&#10;Suppression:                                           50 Snap / 150 Burst&#10;Mitigation:                                                12&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   0.5x&#10;Recoil:                                                     60 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 45%% TU                                                50 Acc x 3 shots&#10;- 80%% TU                                                35 Acc x 9 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.MAGSTORM.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;MAGSTORM:&lt;/b&gt;&#10;&#10;Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire (unless paired with Predator armour) - limiting the mobility of the weapon.&#10;&#10;They are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 60 STR (due to the 60 Recoil). &#10;&#10;Range:                                                    25&#10;Damage:                                                 105 Kinetic&#10;Suppression:                                           55 Snap / 165 Burst&#10;Mitigation:                                                18&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   0.5x&#10;Recoil:                                                     60 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 45%% TU                                                50 Acc x 3 shots&#10;- 80%% TU                                                35 Acc x 9 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.rocketlauncher.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Rocket Launcher:&lt;/b&gt;&#10;&#10;Rocket Launchers fire rockets (shown under the &quot;Rockets&quot; tab of the &quot;Equipment&quot; section) over long range. These generally have large blast areas and do medium damage to enemies and heavy damage to cover and terrain. Remember, enemies killed with explosives will not leave any recoverable items!&#10;&#10;The Rocket Launcher is a Heavy weapon, meaning a strong soldier is needed to use it effectively. It uses the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 60 STR (due to the 60 Recoil). &#10;&#10;Range:                                                    30&#10;Damage:                                                 (Rocket)&#10;Suppression:                                           60&#10;Ammo Capacity:                                     1 rocket&#10;Reaction Modifier:                                   N/A (no reaction fire)&#10;Recoil:                                                     60 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 50%% TU                                                75 Acc x 1 shot&#10;- 80%% TU                                              100 Acc x 1 shot</Data></Cell>
+ </Row>
+</Table>
+ </Worksheet>
+</Workbook>
