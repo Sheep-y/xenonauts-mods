@@ -5,6 +5,9 @@
 	</Weapon>
 	<Weapon name="weapon.rifle" MODMERGEATTRIBUTE="name">
 		<BurstFire accuracy="65" MODMERGE="update"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.rifle" mitigation="3" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
 	</Weapon>
 
 	<Weapon name="weapon.laserpistol" MODMERGEATTRIBUTE="name">
@@ -12,6 +15,9 @@
 	</Weapon>
 	<Weapon name="weapon.laserrifle" MODMERGEATTRIBUTE="name">
 		<BurstFire accuracy="65" MODMERGE="update"/>
+		<Ammos>
+			<Ammo name="ammo.laser.lasercell" mitigation="6" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
 	</Weapon>
 
 	<Weapon name="weapon.plasmapistol" MODMERGEATTRIBUTE="name">
@@ -19,6 +25,9 @@
 	</Weapon>
 	<Weapon name="weapon.plasmarifle" MODMERGEATTRIBUTE="name">
 		<BurstFire accuracy="65" MODMERGE="update"/>
+		<Ammos>
+			<Ammo name="ammo.plasma.plasmacell" mitigation="9" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
 	</Weapon>
 
 	<Weapon name="weapon.MAGpistol" MODMERGEATTRIBUTE="name">
@@ -26,6 +35,9 @@
 	</Weapon>
 	<Weapon name="weapon.MAGrifle" MODMERGEATTRIBUTE="name">
 		<BurstFire accuracy="65" MODMERGE="update" />
+		<Ammos>
+			<Ammo name="ammo.MAG.MAGclip" mitigation="12" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
 	</Weapon>
 
 	<!-- I did say ALL pistols and rifles.  Already a lesser improvement than human.  Good luck. -->
