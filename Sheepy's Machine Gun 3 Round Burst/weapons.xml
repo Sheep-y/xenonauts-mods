@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+ xmlns:udc="http://schemas.microsoft.com/data/udc"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:udcxf="http://schemas.microsoft.com/data/udc/xmlfile">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Aaron</LastAuthor>
+  <Created>2011-04-10T13:25:47Z</Created>
+  <LastSaved>2013-11-01T11:50:41Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11760</WindowHeight>
+  <WindowWidth>19440</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R5C13"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.3125">
+   <Column ss:AutoFitWidth="0" ss:Width="142.5"/>
+   <Column ss:Width="159" ss:Span="1"/>
+   <Column ss:Index="4" ss:Width="38.25"/>
+   <Column ss:Width="71.25"/>
+   <Column ss:Width="56.25"/>
+   <Column ss:Width="45"/>
+   <Column ss:Width="53.25"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="49.5"/>
+   <Column ss:Width="58.5"/>
+   <Column ss:Width="57.75"/>
+   <Column ss:Width="144.75"/>
+   <Column ss:Width="57.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="100.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">stockTextureName</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dragTextureName</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">twoHanded</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">damage</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">range</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">clipsize</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">accuracy</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">weight</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">slotsizex</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">slotsizey</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ammo</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">reloadCost</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">reloadSound</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">inventoryCategory</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">isBigGun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">weapon.machinegun</Data></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">weapon.scatterlaser</Data></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">weapon.plasmacaster</Data></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">weapon.MAGSTORM</Data></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s66"></Cell>
+    <Cell ss:StyleID="s65"></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

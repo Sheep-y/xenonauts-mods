@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Weapons>
+	<Weapon name="weapon.machinegun" MODMERGEATTRIBUTE="name">
+		<props recoil="60" MODMERGE="update" />
+	</Weapon>
+
+	<Weapon name="weapon.scatterlaser" MODMERGEATTRIBUTE="name">
+		<props recoil="60" MODMERGE="update" />
+	</Weapon>
+
+	<Weapon name="weapon.plasmacaster" MODMERGEATTRIBUTE="name">
+		<props recoil="60" MODMERGE="update" />
+	</Weapon>
+
+	<Weapon name="weapon.MAGSTORM" MODMERGEATTRIBUTE="name">
+		<props recoil="60" MODMERGE="update" />
+	</Weapon>
+
+	<Weapon name="weapon.rocketlauncher" MODMERGEATTRIBUTE="name">
+		<props recoil="60" MODMERGE="update" />
+	</Weapon>
+</Weapons>

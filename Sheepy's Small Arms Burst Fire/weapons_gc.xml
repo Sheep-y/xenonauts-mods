@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Weapons>
+	<Weapon name="weapon.pistol" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="60" accuracy="60" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.5" shotCount="3" suppressionValue="60" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+	<Weapon name="weapon.rifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="65" MODMERGE="update"/>
+	</Weapon>
+
+	<Weapon name="weapon.laserpistol" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="60" accuracy="60" sound="Weapon Laser Pistol Burst" delay="0.6" burstdelay="0.3" shotCount="3" suppressionValue="66" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+	<Weapon name="weapon.laserrifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="65" MODMERGE="update"/>
+	</Weapon>
+
+	<Weapon name="weapon.plasmapistol" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="60" accuracy="60" sound="Weapon Plasma Pistol Burst" delay="0.6" burstdelay="0.2" shotCount="3" suppressionValue="72" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+	<Weapon name="weapon.plasmarifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="65" MODMERGE="update"/>
+	</Weapon>
+
+	<Weapon name="weapon.MAGpistol" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="60" accuracy="60" sound="Weapon MAG Pistol Burst" delay="0.6" burstdelay="0.2" shotCount="3" suppressionValue="96" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+	<Weapon name="weapon.MAGrifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="65" MODMERGE="update" />
+	</Weapon>
+
+	<!-- I did say ALL pistols and rifles.  Already less big an improvement than human.  Good luck. -->
+	<Weapon name="weapon.AlienPlasmaPistol" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="60" accuracy="45" sound="Weapon Plasma Pistol Burst" delay="1" burstdelay="0.2" shotCount="3" suppressionValue="60" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+	<Weapon name="weapon.AlienPlasmaRifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="45" MODMERGE="update"/>
+	</Weapon>
+	<Weapon name="weapon.AlienBattleRifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="45" MODMERGE="update"/>
+	</Weapon>
+</Weapons>
