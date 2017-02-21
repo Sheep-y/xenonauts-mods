@@ -2,7 +2,7 @@
 <Weapons>
 	<Weapon name="weapon.machinegun" MODMERGEATTRIBUTE="name">
 		<props recoil="60" clipsize="10" MODMERGE="update" />
-		<SingleShot sound="Weapon Machinegun Burst" delay="0.7" suppressionValue="40" suppressionRadius="2" MODMERGE="update">
+		<SingleShot sound="Weapon Machinegun Single" delay="0.7" suppressionValue="40" suppressionRadius="2" MODMERGE="update">
 			<Set1 ap="45" accuracy="50" MODMERGE="insert" />
 		</SingleShot>
 		<BurstFire burstdelay="0.4" shotCount="3" MODMERGE="update" />
