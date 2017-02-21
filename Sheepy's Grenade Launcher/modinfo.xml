@@ -2,9 +2,11 @@
 <ModInfo>
   <Name>Sheepy's Grenade Launcher</Name>
   <VisibleName>Grenade Launcher</VisibleName>
-  <Version>1.0</Version>
+  <Version>0.9</Version>
   <Author>Sheepy</Author>
-  <Description>Add a grenade launcher that is between the rocket launcher and hand thrown grenade.
+  <Description>Add a grenade launcher with a good range and high rate of fire.
+  
+It is less powerful than rocket or hand thrown grenades, but more can be carried and fired.
 
 Mod home: https://github.com/Sheep-y/xenonauts-mods
 

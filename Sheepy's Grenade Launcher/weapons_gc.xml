@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Weapons>
 	<Weapon name="weapon.grenadelauncher" bulletType="rocket" emptySound="Empty Click 1" MODMERGEATTRIBUTE="name" MODMERGE="insert">
-		<props range="25" hands="2" recoil="60" weight="5" isHeavy="1" clipSize="3" reloadAPCost="30" reloadSound="Weapon Rocket Launcher Reload" strengthLimited="1" reactionModifier="0.5"  disableReactionFire="1" disableDamageScaling="1" />
+		<props range="20" hands="2" recoil="60" weight="5" isHeavy="1" clipSize="3" reloadAPCost="30" reloadSound="Weapon Rocket Launcher Reload" strengthLimited="1" reactionModifier="0.5"  disableReactionFire="1" disableDamageScaling="1" />
 		<SingleShot sound="Weapon Grenadelauncher Single" delay="0.7" suppressionValue="40" suppressionRadius="2.5">
 			<Set1 ap="40" accuracy="90" />
 			<Set2 ap="60" accuracy="120" />

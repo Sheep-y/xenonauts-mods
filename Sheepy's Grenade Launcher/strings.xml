@@ -43,7 +43,7 @@
  </Row>
  <Row>
   <Cell><Data ss:Type="String">weapon.grenadelauncher.desc</Data></Cell>
-  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Grenade Launcher:&lt;/b&gt;&#10;&#10;Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).&#10;&#10;Their 1.5x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.&#10;&#10;Range:                                                    10&#10;Damage:                                                 30 Kinetic&#10;Suppression:                                           20 Suppression&#10;Mitigation:                                                0&#10;Ammo Capacity:                                     15 shots&#10;Reaction Modifier:                                   1.5x&#10;Reload Cost:                                           15 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 45 Acc x 1 shot&#10;- 40%% TU                                                 80 Acc x 1 shot&#10;&#10;- 60%% TU                                                 60 Acc x 3 shots</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Grenade Launcher:&lt;/b&gt;&#10;&#10;Experimental implementation.  Use rocket as ammo.</Data></Cell>
  </Row>
 </Table>
  </Worksheet>
