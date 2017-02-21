@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Weapons>
 	<Weapon name="weapon.machinegun" MODMERGEATTRIBUTE="name">
-		<props recoil="60" MODMERGE="update" />
+		<props recoil="60" clipsize="10" MODMERGE="update" />
 		<SingleShot sound="Weapon Machinegun Burst" delay="0.7" suppressionValue="40" suppressionRadius="2" MODMERGE="update">
 			<Set1 ap="45" accuracy="50" MODMERGE="insert" />
 		</SingleShot>
@@ -12,7 +12,7 @@
 	</Weapon>
 
 	<Weapon name="weapon.scatterlaser" MODMERGEATTRIBUTE="name">
-		<props recoil="60" MODMERGE="update" />
+		<props recoil="60" clipsize="10" MODMERGE="update" />
 		<SingleShot sound="Weapon Scatter Laser Burst" delay="0.7" suppressionValue="45" suppressionRadius="2" MODMERGE="update">
 			<Set1 ap="45" accuracy="50" MODMERGE="insert" />
 		</SingleShot>
@@ -23,7 +23,7 @@
 	</Weapon>
 
 	<Weapon name="weapon.plasmacaster" MODMERGEATTRIBUTE="name">
-		<props recoil="60" MODMERGE="update" />
+		<props recoil="60" clipsize="10" MODMERGE="update" />
 		<SingleShot sound="Weapon Plasma Caster Burst" delay="0.7" suppressionValue="50" suppressionRadius="2" MODMERGE="update">
 			<Set1 ap="45" accuracy="50" MODMERGE="insert" />
 		</SingleShot>
@@ -34,7 +34,7 @@
 	</Weapon>
 
 	<Weapon name="weapon.MAGSTORM" MODMERGEATTRIBUTE="name">
-		<props recoil="60" MODMERGE="update" />
+		<props recoil="60" clipsize="10" MODMERGE="update" />
 		<SingleShot sound="Weapon MAGSTORM Burst" delay="0.7" suppressionValue="55" suppressionRadius="2" MODMERGE="update">
 			<Set1 ap="45" accuracy="50" MODMERGE="insert" />
 		</SingleShot>
