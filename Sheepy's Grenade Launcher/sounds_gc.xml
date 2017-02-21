@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Sounds>
+  <General>
+    <Sound name="Weapon Grenadelauncher Single" volume="1.0" group="1" comment="" MODMERGEATTRIBUTE="name" MODMERGE="insert">
+      <Wave>audio/sfx/weapons/weapon_rocketlauncher_3.ogg</Wave>
+    </Sound>
+  </General>
+</Sounds>

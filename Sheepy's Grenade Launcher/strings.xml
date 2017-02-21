@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>Sheepy</Author>
+<Created>2017-02-21T03:29:37Z</Created>
+<Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+<AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight>9720</WindowHeight>
+<WindowWidth>19590</WindowWidth>
+<WindowTopX>0</WindowTopX>
+<WindowTopY>0</WindowTopY>
+<TabRatio>214</TabRatio>
+<DisplayDrawingObjects>PlaceHolders</DisplayDrawingObjects>
+<RefModeR1C1/>
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+ <Alignment ss:Vertical="Bottom"/>
+ <Borders/>
+ <Interior/>
+ <NumberFormat/>
+ <Protection/>
+</Style>
+ </Styles>
+ <Worksheet ss:Name="strings">
+<Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="8" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+ <Column ss:AutoFitWidth="0" ss:Width="246"/>
+ <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.grenadelauncher</Data></Cell>
+  <Cell><Data ss:Type="String">Grenade Launcher</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.grenadelauncher.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Grenade Launcher:&lt;/b&gt;&#10;&#10;Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).&#10;&#10;Their 1.5x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.&#10;&#10;Range:                                                    10&#10;Damage:                                                 30 Kinetic&#10;Suppression:                                           20 Suppression&#10;Mitigation:                                                0&#10;Ammo Capacity:                                     15 shots&#10;Reaction Modifier:                                   1.5x&#10;Reload Cost:                                           15 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 45 Acc x 1 shot&#10;- 40%% TU                                                 80 Acc x 1 shot&#10;&#10;- 60%% TU                                                 60 Acc x 3 shots</Data></Cell>
+ </Row>
+</Table>
+ </Worksheet>
+</Workbook>

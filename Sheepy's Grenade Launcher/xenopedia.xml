@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sheepy</Author>
+  <LastAuthor>maxiuser</LastAuthor>
+  <Created>2013-04-29T16:38:45Z</Created>
+  <LastSaved>2014-06-05T13:13:11Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5205</WindowHeight>
+  <WindowWidth>14355</WindowWidth>
+  <WindowTopX>7320</WindowTopX>
+  <WindowTopY>3075</WindowTopY>
+  <TabRatio>221</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="232.5" ss:Span="1"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="188.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="130.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="1067.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="537"/>
+   <Row ss:StyleID="s67">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">DisplayName</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Interface</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="114.75">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">weapon.heavyballistics</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Heavy Ballistics</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">xenopediaimages/heavyballistics</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Xenonaut Weapons</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">WEP</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">The Xenonauts are trained to use three main heavy weapons: Machinegun, Grenade Launcher, and Rocket Launcher. Both of these suffer from recoil and a severe accuracy penalty if the user is not stationary when they attempt to fire the weapon. They are also, quite literally, heavy weapons - they will limit the amount of armour and equipment a soldier can carry into battle before being encumbered.&#10;&#10;The Machinegun is a weapon that fires bursts of powerful ammunition at the target. It is not particularly accurate, but has a long range and can be very effective at suppressing the enemy. It has significant recoil, making it most accurate in the hands of our stronger soldiers. Naturally, it is possible to inflict heavy damage on our enemies with this weapon (particularly if they have been caught out in the open or are in a large group) but it should be considered primarily as a support weapon that will pin them in place.&#10;&#10;Perhaps unsurprisingly, the Rocket Launcher fires rockets at our enemies. Each one is heavy and must be carried into battle individually, but is effective for both killing enemies and flattening battlefield terrain. However, be aware that killing units with explosives will not leave much behind that is recoverable.&#10;&#10;The Grenade Launcher is lighter and has a high rate of fire, but has lower damage than even hand thrown grenade.  It has a greater range, however, and is nonetheless effective at destroying covers. </Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
