@@ -4,9 +4,10 @@
   <VisibleName>135 Degree Vision</VisibleName>
   <Version>1.0</Version>
   <Author>Sheepy</Author>
-  <Description>Increase field of vision of Basic, Jackal, Buzzard, Hunter, Hyperion, and Aegis (if enabled and lower priority) to 135 degree.
+  <Description>Increase field of vision of Basic, Jackal, Buzzard, Hunter, Hyperion, and Aegis (if enabled and lower priority) to 135 degree, allowing three soldiers to cover all angles.
+Vision cones of Wolf, Scimiter, and Predator remains unchanged.
 
-This mod is language-independent.
+This mod is language-independent.  Incompatible with Kabill's Cybernetic Armour because those has different angle of visions.
 
 Mod home: https://github.com/Sheep-y/xenonauts-mods
 

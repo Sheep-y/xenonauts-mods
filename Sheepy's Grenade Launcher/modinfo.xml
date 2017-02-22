@@ -2,11 +2,13 @@
 <ModInfo>
   <Name>Sheepy's Grenade Launcher</Name>
   <VisibleName>Grenade Launcher</VisibleName>
-  <Version>0.8</Version>
+  <Version>0.8.5</Version>
   <Author>Sheepy</Author>
   <Description>Add a grenade launcher with a good range.
   
 The grenade it fires is less powerful than rocket or hand thrown grenades, but is lighter and has a higher rate of fire.
+
+Should be compatible with Skaian's Aegis Armour and Kabill's Cybernetic Armour, but have not tested.
 
 Mod home: https://github.com/Sheep-y/xenonauts-mods
 
