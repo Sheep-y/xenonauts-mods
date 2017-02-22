@@ -4,13 +4,15 @@
   <VisibleName>Machine Gun 3 Round Burst</VisibleName>
   <Version>0.9</Version>
   <Author>Sheepy</Author>
-  <Description>Add 3-round burst to machine guns.
+  <Description>Add 3-round burst to hand-held machine guns.
 
 As a side effect, machine guns' full burst now fires 3 volleys of 3 bullets, and a 10/10 clip means 10 volleys.
 
 This mod should be placed above Xenonauts Fix Pack but below whole-game translations, because it updates heavy weapon descriptions.
 
 Mod home: https://github.com/Sheep-y/xenonauts-mods
+
+* For vehicle burst fire, please try Armoured Assault.
 
 </Description>
 </ModInfo>
