@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ModInfo>
-  <Name>Sheepy's Small Arms Burst Fire</Name>
-  <VisibleName>Small Arms Burst Fire</VisibleName>
+  <Name>Sheepy's Pistol Burst Fire</Name>
+  <VisibleName>Pistol Burst Fire</VisibleName>
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>Add burst fire to all pistols, and improves accuracy of rifle burst fires.  Also add a small mitigation to rifles.
