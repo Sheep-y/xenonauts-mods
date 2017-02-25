@@ -3,64 +3,71 @@
     <Ammo name="ammo.grenade.frag" MODMERGEATTRIBUTE="name" MODMERGE="insert">
         <stockTextureName>weapons/misc/40mmfrag</stockTextureName>
         <dragTextureName>weapons/misc/40mmfrag</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo>
     <Ammo name="ammo.grenade.alenium" MODMERGEATTRIBUTE="name" MODMERGE="insert">
         <stockTextureName>weapons/misc/40mmalenium</stockTextureName>
         <dragTextureName>weapons/misc/40mmalenium</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo>
     <Ammo name="ammo.grenade.plasma" MODMERGEATTRIBUTE="name" MODMERGE="insert">
         <stockTextureName>weapons/misc/40mmplasma</stockTextureName>
         <dragTextureName>weapons/misc/40mmplasma</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo>
     <Ammo name="ammo.grenade.fusion" MODMERGEATTRIBUTE="name" MODMERGE="insert">
         <stockTextureName>weapons/misc/40mmfusion</stockTextureName>
         <dragTextureName>weapons/misc/40mmfusion</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo>
     <Ammo name="ammo.grenade.incendiary" MODMERGEATTRIBUTE="name" MODMERGE="insert">
         <stockTextureName>weapons/misc/40mmincendiary</stockTextureName>
         <dragTextureName>weapons/misc/40mmincendiary</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo>
-    <Ammo name="ammo.grenade.stun" MODMERGEATTRIBUTE="name" MODMERGE="insert">
-        <stockTextureName>weapons/misc/40mmstun</stockTextureName>
-        <dragTextureName>weapons/misc/40mmstun</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
-        <weight>2</weight>
-    </Ammo>
-    <Ammo name="ammo.grenade.flare" MODMERGEATTRIBUTE="name" MODMERGE="insert">
-        <stockTextureName>weapons/misc/40mmflare</stockTextureName>
-        <dragTextureName>weapons/misc/40mmflare</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
-        <weight>1</weight>
-    </Ammo>
-    <Ammo name="ammo.grenade.shock" MODMERGEATTRIBUTE="name" MODMERGE="insert">
-        <stockTextureName>weapons/misc/40mmshock</stockTextureName>
-        <dragTextureName>weapons/misc/40mmshock</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+    <Ammo name="ammo.grenade.smoke" MODMERGEATTRIBUTE="name" MODMERGE="insert">
+        <stockTextureName>weapons/misc/40mmsmoke</stockTextureName>
+        <dragTextureName>weapons/misc/40mmsmoke</dragTextureName>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo>
     <!-- <Ammo name="ammo.grenade.flash" MODMERGEATTRIBUTE="name" MODMERGE="insert">
         <stockTextureName>weapons/misc/40mmincendiary</stockTextureName>
         <dragTextureName>weapons/misc/40mmincendiary</dragTextureName>
-        <slotsizex>1</slotsizex>
-        <slotsizey>2</slotsizey>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
         <weight>2</weight>
     </Ammo> -->
+    <Ammo name="ammo.grenade.stun" MODMERGEATTRIBUTE="name" MODMERGE="insert">
+        <stockTextureName>weapons/misc/40mmstun</stockTextureName>
+        <dragTextureName>weapons/misc/40mmstun</dragTextureName>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>2</weight>
+    </Ammo>
+    <Ammo name="ammo.grenade.shock" MODMERGEATTRIBUTE="name" MODMERGE="insert">
+        <stockTextureName>weapons/misc/40mmshock</stockTextureName>
+        <dragTextureName>weapons/misc/40mmshock</dragTextureName>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>2</weight>
+    </Ammo>
+    <Ammo name="ammo.grenade.flare" MODMERGEATTRIBUTE="name" MODMERGE="insert">
+        <stockTextureName>weapons/misc/40mmflare</stockTextureName>
+        <dragTextureName>weapons/misc/40mmflare</dragTextureName>
+        <slotsizex>2</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
 </Ammos>
