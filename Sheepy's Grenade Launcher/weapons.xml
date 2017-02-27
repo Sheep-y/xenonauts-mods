@@ -91,13 +91,13 @@
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="String">ammo.grenade.frag</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.rocket</Data></Cell>
     <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.frag</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmfrag</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmfrag</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmfrag</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -114,7 +114,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.alenium</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmalenium</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmalenium</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmalenium</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -131,7 +131,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.plasma</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmplasma</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmplasma</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmplasma</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -148,7 +148,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.fusion</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmfusion</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmfusion</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmfusion</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -165,7 +165,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.incendiary</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmincendiary</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmincendiary</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmincendiary</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -182,7 +182,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.smoke</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmsmoke</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmsmoke</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmsmoke</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -199,7 +199,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.stun</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmstun</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmstun</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmstun</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -216,7 +216,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.shock</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmshock</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmshock</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmshock</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
@@ -233,7 +233,7 @@
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.grenade.flare</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.rocket.40mmflare</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmflare</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmflare</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>

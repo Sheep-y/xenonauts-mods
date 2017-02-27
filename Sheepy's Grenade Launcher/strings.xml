@@ -38,83 +38,83 @@
  <Column ss:AutoFitWidth="0" ss:Width="246"/>
  <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.frag</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmfrag</Data></Cell>
   <Cell><Data ss:Type="String">40mm Fragmentation Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.frag.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmfrag.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Fragmentation Grenade:&lt;/b&gt;&#10;&#10;The 40mm Fragmentation Grenade is an anti-structure grenade that inflicts quadruple damage to structures and also sprays shrapnel in a small radius around its detonation point. This shrapnel has poor armour penetration but can kill or injure multiple enemy units at the same time if they are standing too close to one another. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.alenium</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmalenium</Data></Cell>
   <Cell><Data ss:Type="String">40mm Alenium Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.alenium.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmalenium.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Alenium Grenade:&lt;/b&gt;&#10;&#10;The 40mm Alenium Grenade is an anti-structure grenade that inflicts quadruple damage to structures and also sprays shrapnel in a small radius around its detonation point. This shrapnel has poor armour penetration but can kill or injure multiple enemy units at the same time if they are standing too close to one another. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.plasma</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmplasma</Data></Cell>
   <Cell><Data ss:Type="String">40mm Plasma Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.plasma.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmplasma.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Plasma Grenade:&lt;/b&gt;&#10;&#10;The 40mm Plasma Grenade is an anti-structure grenade that inflicts quadruple damage to structures and also sprays shrapnel in a small radius around its detonation point. This shrapnel has poor armour penetration but can kill or injure multiple enemy units at the same time if they are standing too close to one another. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.fusion</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmfusion</Data></Cell>
   <Cell><Data ss:Type="String">40mm Fusion Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.fusion.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmfusion.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Fusion Grenade:&lt;/b&gt;&#10;&#10;The 40mm Fusion Grenade is an anti-structure grenade that inflicts quadruple damage to structures and also sprays shrapnel in a small radius around its detonation point. This shrapnel has poor armour penetration but can kill or injure multiple enemy units at the same time if they are standing too close to one another. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.incendiary</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmincendiary</Data></Cell>
   <Cell><Data ss:Type="String">40mm Incendiary Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.incendiary.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmincendiary.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Incendiary Grenade:&lt;/b&gt;&#10;&#10;The 40mm Incendiary Grenade is a grenade that inflicts fires in a small radius around its detonation point. The explosion has poor armour penetration but can kill or injure multiple enemy units at the same time if they are standing too close to one another. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.stun</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmstun</Data></Cell>
   <Cell><Data ss:Type="String">40mm Stun Gas Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.stun.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmstun.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Stun Gas Grenade:&lt;/b&gt;&#10;&#10;The 40mm Stun Grenade is a method of delivering stun gas into an area from long range.  This gas inflicts stun damage on any unit that comes in contact with it each turn - though some alien units (particularly those with helmets) are partially or fully resistant to this effect. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.shock</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmshock</Data></Cell>
   <Cell><Data ss:Type="String">40mm Electroshock Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.shock.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmshock.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Electroshock Grenade:&lt;/b&gt;&#10;&#10;The 40mm Electroshock Grenade produce a powerful electrical pulse that inflicts stun damage on biological units and EMP damage on robotic units. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.flare</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmflare</Data></Cell>
   <Cell><Data ss:Type="String">40mm Flare</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.flare.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmflare.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Flare:&lt;/b&gt;&#10;&#10;The 40mm Flare is a grenade designed to illuminate a wide area without causing any damage.  It is heavier than hand thrown flare and thus limited in supply, but can light up a much wider area and can be launcher further. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.smoke</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmsmoke</Data></Cell>
   <Cell><Data ss:Type="String">40mm Smoke Grenade</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.smoke.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmsmoke.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Smoke Grenade:&lt;/b&gt;&#10;&#10;The 40mm Smoke Grenade does not cause damage, instead generating a cloud of thick smoke within its blast radius. This smoke significantly reduces the accuracy of any shots fired through it, offering protection from incoming alien fire. It must be launched by grenade launcher.</Data></Cell>
  </Row>
  <!-- <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.flash</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmflash</Data></Cell>
   <Cell><Data ss:Type="String">40mm Flashbang</Data></Cell>
  </Row>
  <Row>
-  <Cell><Data ss:Type="String">ammo.grenade.flash.desc</Data></Cell>
+  <Cell><Data ss:Type="String">weapon.rocket.40mmflash.desc</Data></Cell>
   <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;40mm Flashbang:&lt;/b&gt;&#10;&#10;The 40mm Flashbang is a grenade designed to facilitate breaching well-defended locations. While it does not cause much damage to enemy units, it generates large amounts of suppression in its blast area instead. As a suppressed enemy is unable to reaction fire at Xenonaut troops moving into their vision cone, a Flashbang will make entry into a defended location far less dangerous. It must be launched by grenade launcher.</Data></Cell>
  </Row> -->
  <Row>
