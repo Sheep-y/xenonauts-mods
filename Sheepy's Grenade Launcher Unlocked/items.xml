@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>John</LastAuthor>
+  <LastSaved>2014-02-17T20:29:51Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4605</WindowHeight>
+  <WindowWidth>14355</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>195</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.3125">
+   <Column ss:AutoFitWidth="0" ss:Width="220.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="1"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="210.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="258"/>
+   <Column ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:Width="69"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sell value</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Alenium value</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DestroyText</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Storage space</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sort order</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.grenadelauncher</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmfrag</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmalenium</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmplasma</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmfusion</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmincendiary</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmsmoke</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmstun</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmshock</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
