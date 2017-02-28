@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Computer 2</Author>
+  <LastAuthor>maxiuser</LastAuthor>
+  <Created>2012-03-29T13:18:51Z</Created>
+  <LastSaved>2017-02-28T04:01:45Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6315</WindowHeight>
+  <WindowWidth>20730</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>221</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Column ss:Width="27.75"/>
+   <Column ss:StyleID="s62" ss:Width="44.25"/>
+   <Column ss:StyleID="s63" ss:Width="43.5"/>
+   <Column ss:Width="73.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="441.75"/>
+   <Column ss:Width="84"/>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Days</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Requires</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">When unlocked</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">When finished</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Knowledge shown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.ElectroshockGrenade</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">MODMERGEAPPEND: &#10;UnlockItem(&quot;weapon.rocket.40mmshock&quot;);</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.StunWeapons</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">MODMERGEAPPEND: &#10;UnlockItem(&quot;weapon.rocket.40mmstun&quot;);</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.AleniumExplosives</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">MODMERGEAPPEND: &#10;ReplaceItem(&quot;weapon.rocket.40mmfrag&quot;,&quot;weapon.rocket.40mmalenium&quot;);</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.PlasmaExplosives</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">MODMERGEAPPEND: &#10;ReplaceItem(&quot;weapon.rocket.40mmfrag&quot;,&quot;weapon.rocket.40mmplasma&quot;);&#10;ReplaceItem(&quot;weapon.rocket.40mmalenium&quot;,&quot;weapon.rocket.40mmplasma&quot;);</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.FusionExplosives</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">MODMERGEAPPEND: &#10;ReplaceItem(&quot;weapon.rocket.40mmfrag&quot;,&quot;weapon.rocket.40mmfusion&quot;);&#10;ReplaceItem(&quot;weapon.rocket.40mmalenium&quot;,&quot;weapon.rocket.40mmfusion&quot;);&#10;ReplaceItem(&quot;weapon.rocket.40mmplasma&quot;,&quot;weapon.rocket.40mmfusion&quot;);</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
