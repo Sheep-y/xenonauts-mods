@@ -232,7 +232,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <!--<Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.rocket.40mmflare</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmflare</Data></Cell>
     <Cell><Data ss:Type="String">weapons/misc/40mmflare</Data></Cell>
@@ -249,6 +249,23 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rocket.40mmflash</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/misc/40mmflash</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/misc/40mmflash</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.none</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Grenades</Data></Cell>
+   </Row>-->
   </Table>
  </Worksheet>
 </Workbook>

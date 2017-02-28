@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Weapons>
 	<Weapon name="weapon.grenadelauncher" bulletType="rocket" emptySound="Empty Click 1" MODMERGEATTRIBUTE="name" MODMERGE="insert">
-		<props range="20" hands="2" recoil="60" weight="5" isHeavy="1" clipSize="3" reloadAPCost="30" reloadSound="Weapon Rocket Launcher Reload" strengthLimited="1" reactionModifier="0.5"  disableReactionFire="1" disableDamageScaling="1" />
+		<props range="20" hands="2" recoil="60" weight="5" isHeavy="1" clipSize="3" reloadAPCost="25" reloadSound="Weapon Rocket Launcher Reload" strengthLimited="1" reactionModifier="0.5"  disableReactionFire="1" disableDamageScaling="1" />
 		<SingleShot sound="Weapon Grenadelauncher Single" delay="0.7" suppressionValue="40" suppressionRadius="2.5">
-			<Set1 ap="40" accuracy="90" />
-			<Set2 ap="60" accuracy="120" />
+			<Set1 ap="40" accuracy="95" />
+			<Set2 ap="60" accuracy="125" />
 		</SingleShot>
 		<GUIImage name="gui/weapons/GrenadeLauncher.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>
 			<Ammo name="weapon.rocket.40mmfrag" type="incendiary" damage="40" stunDamage="0" mitigation="0" overdamageChance="30" disableDamageScaling="1">
 				<Projectile spectre="projectiles/granade" speed="900" showAfterDistance="60.0"/>
-				<Impact spectre="particles/explosion/explosion" radius="1.5" sound="Weapon Frag Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/explosion/explosion" radius="2" sound="Weapon Frag Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
 			</Ammo>
 			<Ammo name="weapon.rocket.40mmalenium" type="incendiary" damage="57" stunDamage="0" mitigation="0" overdamageChance="50" disableDamageScaling="1">
 				<Projectile spectre="projectiles/granade" speed="900" showAfterDistance="60.0"/>
-				<Impact spectre="particles/explosion/explosion" radius="1.5" sound="Weapon Frag Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/explosion/explosion" radius="2" sound="Weapon Frag Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
 			</Ammo>
 			<Ammo name="weapon.rocket.40mmplasma" type="incendiary" damage="84" stunDamage="0" mitigation="0" overdamageChance="70" disableDamageScaling="1">
 				<Projectile spectre="projectiles/granade" speed="900" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmaexplosion/plasmaexplosion" radius="1.5" sound="Weapon Plasma Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/plasmaexplosion/plasmaexplosion" radius="2" sound="Weapon Plasma Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
 			</Ammo>
 			<Ammo name="weapon.rocket.40mmfusion" type="incendiary" damage="120" stunDamage="0" mitigation="0" overdamageChance="90" disableDamageScaling="1">
 				<Projectile spectre="projectiles/granade" speed="900" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmaexplosion/plasmaexplosion" radius="1.5" sound="Weapon Fusion Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/plasmaexplosion/plasmaexplosion" radius="2" sound="Weapon Fusion Grenade" fireChance="3" smokeChance="10" gasType="GrenadeFragSmoke" />
 			</Ammo>
 			<Ammo name="weapon.rocket.40mmincendiary" type="incendiary" damage="20" stunDamage="0" mitigation="0" overdamageChance="20"  disableDamageScaling="1">
 				<Projectile spectre="projectiles/grenades/grenade_incendiary" speed="900" />
-				<Impact spectre="particles/smallgrenade/small_grenade" radius="2" sound="Weapon Gas Grenade" fireChance="90" smokeChance="0" gasType="IncendiarySmoke"/>
+				<Impact spectre="particles/smallgrenade/small_grenade" radius="2.5" sound="Weapon Gas Grenade" fireChance="90" smokeChance="0" gasType="IncendiarySmoke"/>
 			</Ammo>
 			<Ammo name="weapon.rocket.40mmsmoke" type="kinetic" damage="0" stunDamage="1" mitigation="0" disableDamageScaling="1">
 				<Projectile spectre="projectiles/grenades" speed="900" />
@@ -39,14 +39,14 @@
 			</Ammo>
 			<Ammo name="weapon.rocket.40mmshock" type="energy" damage="3" stunDamage="38" empDamage="68" mitigation="0" disableDamageScaling="1">
 				<Projectile spectre="projectiles/grenades/grenade_shock" speed="900" />
-				<Impact spectre="particles/empblast/empblast" radius="2" sound="Weapon Shock Grenade" fireChance="0" smokeChance="0" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/empblast/empblast" radius="2.5" sound="Weapon Shock Grenade" fireChance="0" smokeChance="0" gasType="GrenadeFragSmoke" />
 			</Ammo>
-			<Ammo name="weapon.rocket.40mmflare" type="kinetic" damage="0" stunDamage="1" mitigation="0" disableDamageScaling="1">
+			<!-- <Ammo name="weapon.rocket.40mmflare" type="kinetic" damage="0" stunDamage="1" mitigation="0" disableDamageScaling="1">
 				<Projectile spectre="projectiles/grenades/grenade_flare" speed="900" />
 				<Impact spectre="particles/flare/flare" radius="9" sound="Weapon Stun Grenade" fire="0" />
 				<AfterImpact spectre="particles/flare/flare" />
 			</Ammo>
-			<!-- <Ammo name="ammo.grenade.flash" type="kinetic" damage="3" stunDamage="12" mitigation="0" disableDamageScaling="1">
+			<Ammo name="ammo.grenade.flash" type="kinetic" damage="3" stunDamage="12" mitigation="0" disableDamageScaling="1">
 				<Projectile spectre="projectiles/grenades/grenade_flashbang" speed="900" />
 				<Impact spectre="particles/smallgrenade/small_grenade" radius="2.5" sound="Weapon Stun Grenade" fireChance="0" smokeChance="0" gasType="GrenadeFragSmoke" />
 			</Ammo> -->

@@ -7,6 +7,9 @@
   <Description>Add a grenade launcher with a good range.
   
 The grenade it fires is less powerful than rocket or hand thrown grenades, but is lighter and has a higher rate of fire.
+The launcher equip rocket by default because of system limitation, but can be swapped to other 40mm grenades.
+
+Attempting to arm it with rocket, or arm rocket launcher with 40mm, will be corrected to explosive warheads by the soldier.
 
 Should be compatible with Skaian's Aegis Armour and Kabill's Cybernetic Armour, but have not tested.
 

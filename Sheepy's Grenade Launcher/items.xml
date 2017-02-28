@@ -161,7 +161,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <!-- <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.rocket.40mmflare</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
@@ -170,7 +170,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <!-- <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.rocket.40mmflash</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
