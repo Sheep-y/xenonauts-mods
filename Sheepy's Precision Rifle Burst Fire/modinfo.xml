@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModInfo>
+  <Name>Sheepy's Precision Rifle Burst Fire</Name>
+  <VisibleName>Precision Rifle Burst Fire</VisibleName>
+  <Version>1.0</Version>
+  <Author>Sheepy</Author>
+  <Description>Add a three round burst to all precision rifles and moderately increase clip size.
+
+This mod should be placed above Xenonauts Fix Pack but below whole-game translations, because it updates precision rifle descriptions.
+
+Mod home: https://github.com/Sheep-y/xenonauts-mods
+
+</Description>
+</ModInfo>

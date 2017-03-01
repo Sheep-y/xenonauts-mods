@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Weapons>
+	<Weapon name="weapon.sniper" MODMERGEATTRIBUTE="name">
+		<props clipSize="12" MODMERGE="update" />
+		<BurstFire ap="80" accuracy="75" sound="Weapon Sniper Burst" delay="0.6" burstdelay="0.8" shotCount="3" suppressionValue="44" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+
+	<Weapon name="weapon.laserprecision" MODMERGEATTRIBUTE="name">
+		<props clipSize="9" MODMERGE="update" />
+		<BurstFire ap="80" accuracy="75" sound="Weapon Precision Laser Burst" delay="0.6" burstdelay="0.8" shotCount="3" suppressionValue="51" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+
+	<Weapon name="weapon.plasmaprecision" MODMERGEATTRIBUTE="name">
+		<props clipSize="9" MODMERGE="update" />
+		<BurstFire ap="80" accuracy="75" sound="Weapon Plasma Precision Burst" delay="0.6" burstdelay="0.8" shotCount="3" suppressionValue="58" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+
+	<Weapon name="weapon.MAGprecision" MODMERGEATTRIBUTE="name">
+		<props clipSize="9" MODMERGE="update" />
+		<BurstFire ap="80" accuracy="75" sound="Weapon MAG Precision Burst" delay="0.6" burstdelay="0.8" shotCount="3" suppressionValue="65" suppressionRadius="1" MODMERGE="insertreplace"/>
+	</Weapon>
+</Weapons>

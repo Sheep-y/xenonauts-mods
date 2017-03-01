@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>Solver</Author>
+<LastAuthor>Sheepy</LastAuthor>
+<Created>2011-04-13T20:36:37Z</Created>
+<LastSaved>2017-02-20T18:12:57Z</LastSaved>
+<Version>15.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight>9720</WindowHeight>
+<WindowWidth>19590</WindowWidth>
+<WindowTopX>0</WindowTopX>
+<WindowTopY>0</WindowTopY>
+<TabRatio>214</TabRatio>
+<DisplayDrawingObjects>PlaceHolders</DisplayDrawingObjects>
+<RefModeR1C1/>
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+ <Alignment ss:Vertical="Bottom"/>
+ <Borders/>
+ <Interior/>
+ <NumberFormat/>
+ <Protection/>
+</Style>
+ </Styles>
+ <Worksheet ss:Name="strings">
+<Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="8" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+ <Column ss:AutoFitWidth="0" ss:Width="246"/>
+ <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.sniper.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Precision Rifle:&lt;/b&gt;&#10;&#10;Precision weapons are more accurate than rifles and do slightly more damage, making them useful at long range. Their mitigation also gives them a damage bonus against armoured (i.e. robotic) enemies.&#10;&#10;However, each shot has a higher TU cost than a rifle and the burst fire has low suppression. It also receives no short-range accuracy bonus and has a negative modifier for reaction fire, making it a poor assault weapon.&#10;&#10;Range:                                                    30&#10;Damage:                                                 35 Kinetic&#10;Suppression:                                           25 Single / 44 Burst&#10;Mitigation:                                               10&#10;Ammo Capacity:                                     12 shots&#10;Reaction Modifier:                                   0.5x&#10;Reload Cost:                                           30 TU&#10;&#10;Fire Modes:&#10;- 38%% TU                                                  60 Acc  x 1 shot&#10;- 49%% TU                                                 105 Acc x 1 shot&#10;- 65%% TU                                                 165 Acc x 1 shot&#10;&#10;- 80%% TU                                                  75 Acc x 3 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.laserprecision.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Precision Laser:&lt;/b&gt;&#10;&#10;Precision weapons are more accurate than rifles and do slightly more damage, making them useful at long range. Their mitigation also gives them a damage bonus against armoured (i.e. robotic) enemies.&#10;&#10;However, each shot has a higher TU cost than a rifle and the burst fire has low suppression. It also receives no short-range accuracy bonus and has a negative modifier for reaction fire, making it a poor assault weapon.&#10;&#10;Range:                                                    30&#10;Damage:                                                 55 Energy&#10;Suppression:                                           29 Single / 51 Burst&#10;Mitigation:                                                15&#10;Ammo Capacity:                                     9 shots&#10;Reaction Modifier:                                   0.5x&#10;Reload Cost:                                           30 TU&#10;&#10;Fire Modes:&#10;- 38%% TU                                                  60 Acc  x 1 shot&#10;- 49%% TU                                                 105 Acc x 1 shot&#10;- 65%% TU                                                 165 Acc x 1 shot&#10;&#10;- 80%% TU                                                  75 Acc x 3 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.plasmaprecision.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Precision Plasma:&lt;/b&gt;&#10;&#10;Precision weapons are more accurate than rifles and do slightly more damage, making them useful at long range. Their mitigation also gives them a damage bonus against armoured (i.e. robotic) enemies.&#10;&#10;However, each shot has a higher TU cost than a rifle and the burst fire has low suppression. It also receives no short-range accuracy bonus and has a negative modifier for reaction fire, making it a poor assault weapon.&#10;&#10;Range:                                                    30&#10;Damage:                                                 80 Energy&#10;Suppression:                                           33 Single / 58 Burst&#10;Mitigation:                                                25&#10;Ammo Capacity:                                     9 shots&#10;Reaction Modifier:                                   0.5x&#10;Reload Cost:                                           30 TU&#10;&#10;Fire Modes:&#10;- 38%% TU                                                  60 Acc  x 1 shot&#10;- 49%% TU                                                 105 Acc x 1 shot&#10;- 65%% TU                                                 165 Acc x 1 shot&#10;&#10;- 80%% TU                                                  75 Acc x 3 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.MAGprecision.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;MAG Precision:&lt;/b&gt;&#10;&#10;Precision weapons are more accurate than rifles and do slightly more damage, making them useful at long range. Their mitigation also gives them a damage bonus against armoured (i.e. robotic) enemies.&#10;&#10;However, each shot has a higher TU cost than a rifle and the burst fire has low suppression. It also receives no short-range accuracy bonus and has a negative modifier for reaction fire, making it a poor assault weapon.&#10;&#10;Range:                                                    30&#10;Damage:                                                 120 Kinetic&#10;Suppression:                                           37 Single / 65 Burst&#10;Mitigation:                                                35&#10;Ammo Capacity:                                     9 shots&#10;Reaction Modifier:                                   0.5x&#10;Reload Cost:                                           30 TU&#10;&#10;Fire Modes:&#10;- 38%% TU                                                  60 Acc  x 1 shot&#10;- 49%% TU                                                 105 Acc x 1 shot&#10;- 65%% TU                                                 165 Acc x 1 shot&#10;&#10;- 80%% TU                                                  75 Acc x 3 shots</Data></Cell>
+ </Row>
+</Table>
+ </Worksheet>
+</Workbook>
