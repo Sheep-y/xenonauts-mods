@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Weapons>
+	<Weapon name="weapon.rifle" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="65" accuracy="60" MODMERGE="update"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.rifle" mitigation="3" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<Weapon name="weapon.laserrifle" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="65" accuracy="60" MODMERGE="update"/>
+		<Ammos>
+			<Ammo name="ammo.laser.lasercell" mitigation="6" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<Weapon name="weapon.plasmarifle" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="65" accuracy="60" MODMERGE="update"/>
+		<Ammos>
+			<Ammo name="ammo.plasma.plasmacell" mitigation="9" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<Weapon name="weapon.MAGrifle" MODMERGEATTRIBUTE="name">
+		<BurstFire ap="65" accuracy="60" MODMERGE="update" />
+		<Ammos>
+			<Ammo name="ammo.MAG.MAGclip" mitigation="12" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<!-- ALL rifles?
+	<Weapon name="weapon.AlienPlasmaRifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="45" MODMERGE="update"/>
+	</Weapon>
+	<Weapon name="weapon.AlienBattleRifle" MODMERGEATTRIBUTE="name">
+		<BurstFire accuracy="45" MODMERGE="update"/>
+	</Weapon> -->
+</Weapons>
