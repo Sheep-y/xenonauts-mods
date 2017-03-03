@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Weapons>
 	<Weapon name="weapon.pistol" MODMERGEATTRIBUTE="name">
-		<BurstFire ap="65" accuracy="60" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.5" shotCount="3" suppressionValue="60" suppressionRadius="1" MODMERGE="insertreplace"/>
+		<BurstFire ap="65" accuracy="60" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.2" shotCount="3" suppressionValue="60" suppressionRadius="1" MODMERGE="insertreplace"/>
 	</Weapon>
 
 	<Weapon name="weapon.laserpistol" MODMERGEATTRIBUTE="name">
