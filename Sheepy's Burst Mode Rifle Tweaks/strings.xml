@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>Solver</Author>
+<LastAuthor>Sheepy</LastAuthor>
+<Created>2011-04-13T20:36:37Z</Created>
+<LastSaved>2017-02-20T18:12:57Z</LastSaved>
+<Version>15.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight>9720</WindowHeight>
+<WindowWidth>19590</WindowWidth>
+<WindowTopX>0</WindowTopX>
+<WindowTopY>0</WindowTopY>
+<TabRatio>214</TabRatio>
+<DisplayDrawingObjects>PlaceHolders</DisplayDrawingObjects>
+<RefModeR1C1/>
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+ <Alignment ss:Vertical="Bottom"/>
+ <Borders/>
+ <Interior/>
+ <NumberFormat/>
+ <Protection/>
+</Style>
+ </Styles>
+ <Worksheet ss:Name="strings">
+<Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="8" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+ <Column ss:AutoFitWidth="0" ss:Width="246"/>
+ <Column ss:AutoFitWidth="0" ss:Width="844.5"/>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.rifle.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic Rifle:&lt;/b&gt;&#10;&#10;Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.&#10;&#10;Range:                                                    20&#10;Damage:                                                 30 Kinetic&#10;Suppression:                                           30 Single / 90 Burst&#10;Mitigation:                                                3&#10;Ammo Capacity:                                     12 x 2 shots&#10;Reaction Modifier:                                   1x&#10;Reload Cost:                                           25 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 30 Acc x 2 shot&#10;- 40%% TU                                                 53 Acc x 2 shot&#10;- 55%% TU                                               87 Acc x 2 shot&#10;&#10;- 65%% TU                                                40 Acc x 3 x 2 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.laserrifle.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Laser Rifle:&lt;/b&gt;&#10;&#10;Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.&#10;&#10;Range:                                                    20&#10;Damage:                                                 45 Energy&#10;Suppression:                                           35 Single / 105 Burst&#10;Mitigation:                                                6&#10;Ammo Capacity:                                     9 x 2 shots&#10;Reaction Modifier:                                   1x&#10;Reload Cost:                                           25 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 30 Acc x 1 shot&#10;- 40%% TU                                                 53 Acc x 2 shot&#10;- 55%% TU                                                 87 Acc x 2 shot&#10;&#10;- 65%% TU                                                 40 Acc x 3 x 2 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.plasmarifle.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Plasma Rifle:&lt;/b&gt;&#10;&#10;Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.&#10;&#10;Range:                                                    20&#10;Damage:                                                 70 Energy&#10;Suppression:                                           40 Single / 120 Burst&#10;Mitigation:                                                9&#10;Ammo Capacity:                                     9 x 2 shots&#10;Reaction Modifier:                                   1x&#10;Reload Cost:                                           25 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 30 Acc x 1 shot&#10;- 40%% TU                                                 53 Acc x 2 shot&#10;- 55%% TU                                                 87 Acc x 2 shot&#10;&#10;- 65%% TU                                                 40 Acc x 3 x 2 shots</Data></Cell>
+ </Row>
+ <Row>
+  <Cell><Data ss:Type="String">weapon.MAGrifle.desc</Data></Cell>
+  <Cell><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;MAG Rifle:&lt;/b&gt;&#10;&#10;Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.&#10;&#10;Range:                                                    20&#10;Damage:                                                 105 Kinetic&#10;Suppression:                                           45 Single / 135 Burst&#10;Mitigation:                                                12&#10;Ammo Capacity:                                     9 x 2 shots&#10;Reaction Modifier:                                   1x&#10;Reload Cost:                                           15 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 30 Acc x 1 shot&#10;- 40%% TU                                                 53 Acc x 2 shot&#10;- 55%% TU                                                 87 Acc x 2 shot&#10;&#10;- 65%% TU                                                 40 Acc x 3 x 2 shots</Data></Cell>
+ </Row>
+</Table>
+ </Worksheet>
+</Workbook>

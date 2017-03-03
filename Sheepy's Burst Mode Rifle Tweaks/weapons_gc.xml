@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Weapons>
+	<Weapon name="weapon.rifle" MODMERGEATTRIBUTE="name">
+		<props clipSize="12" MODMERGE="update" />
+		<SingleShot suppressionValue="30" MODMERGE="update">
+			<Set1 accuracy="30"  MODMERGE="update"/>
+			<Set2 accuracy="53"  MODMERGE="update"/>
+			<Set3 accuracy="87"  MODMERGE="update"/>
+		</SingleShot>
+		<BurstFire ap="65" accuracy="40" burstdelay="0.3" suppressionValue="90" MODMERGE="update" />
+		<Ammos>
+			<Ammo name="ammo.ballistic.rifle" mitigation="3" pelletCount="2" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<Weapon name="weapon.laserrifle" MODMERGEATTRIBUTE="name">
+		<props clipSize="9" MODMERGE="update" />
+		<SingleShot suppressionValue="35" MODMERGE="update">
+			<Set1 accuracy="30"  MODMERGE="update"/>
+			<Set2 accuracy="53"  MODMERGE="update"/>
+			<Set3 accuracy="87"  MODMERGE="update"/>
+		</SingleShot>
+		<BurstFire ap="65" accuracy="40" burstdelay="0.3" suppressionValue="105" MODMERGE="update" />
+		<Ammos>
+			<Ammo name="ammo.laser.lasercell" mitigation="6" pelletCount="2" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<Weapon name="weapon.plasmarifle" MODMERGEATTRIBUTE="name">
+		<props clipSize="9" MODMERGE="update" />
+		<SingleShot suppressionValue="40" MODMERGE="update">
+			<Set1 accuracy="30"  MODMERGE="update"/>
+			<Set2 accuracy="53"  MODMERGE="update"/>
+			<Set3 accuracy="87"  MODMERGE="update"/>
+		</SingleShot>
+		<BurstFire ap="65" accuracy="40" burstdelay="0.3" suppressionValue="120" MODMERGE="update" />
+		<Ammos>
+			<Ammo name="ammo.plasma.plasmacell" mitigation="9" pelletCount="2" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+
+	<Weapon name="weapon.MAGrifle" MODMERGEATTRIBUTE="name">
+		<props clipSize="9" MODMERGE="update" />
+		<SingleShot suppressionValue="45" MODMERGE="update">
+			<Set1 accuracy="30"  MODMERGE="update"/>
+			<Set2 accuracy="53"  MODMERGE="update"/>
+			<Set3 accuracy="87"  MODMERGE="update"/>
+		</SingleShot>
+		<BurstFire ap="65" accuracy="40" burstdelay="0.3" suppressionValue="135" MODMERGE="update" />
+		<Ammos>
+			<Ammo name="ammo.MAG.MAGclip" mitigation="12" pelletCount="2" MODMERGEATTRIBUTE="name" MODMERGE="update" />
+		</Ammos>
+	</Weapon>
+</Weapons>

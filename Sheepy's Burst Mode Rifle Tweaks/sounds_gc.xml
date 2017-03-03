@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Sounds>
+  <General>
+    <Sound name="Weapon Assault Rifle Burst" volume="1.0" group="1" comment="" MODMERGEATTRIBUTE="name" MODMERGE="insertreplace">
+      <Wave>audio/sfx/weapons/weapon_assault_rifle_burst_1.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_assault_rifle_burst_2.ogg</Wave>
+    </Sound>
+    <Sound name="Weapon Laser Rifle Burst" volume="1.0" group="1" comment="" MODMERGEATTRIBUTE="name" MODMERGE="insertreplace">
+      <Wave>audio/sfx/weapons/weapon_laser_rifle_burst_1.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_laser_rifle_burst_2.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_laser_rifle_burst_3.ogg</Wave>
+    </Sound>
+    <Sound name="Weapon Plasma Rifle Burst" volume="1.0" group="1" comment="" MODMERGEATTRIBUTE="name" MODMERGE="insertreplace">
+      <Wave>audio/sfx/weapons/weapon_plasma_rifle_burst_1.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_plasma_rifle_burst_2.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_plasma_rifle_burst_3.ogg</Wave>
+    </Sound>
+    <Sound name="Weapon MAG Rifle Burst" volume="1.0" group="1" comment="" MODMERGEATTRIBUTE="name" MODMERGE="insertreplace">
+      <Wave>audio/sfx/weapons/weapon_mag_rifle_burst_1.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_mag_rifle_burst_2.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_mag_rifle_burst_3.ogg</Wave>
+    </Sound>
+  </General>
+</Sounds>
