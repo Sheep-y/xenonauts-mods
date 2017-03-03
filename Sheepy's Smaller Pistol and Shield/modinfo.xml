@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <ModInfo>
-  <Name>Sheepy's Smaller Pistol and Shield</Name>
-  <VisibleName>Smaller Pistol and Shield</VisibleName>
+  <Name>Sheepy's Smaller Pistol and Shield Tweaks</Name>
+  <VisibleName>Smaller Pistol and Shield Tweaks</VisibleName>
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>Reduce size of all pistols (3x2 to 2x2), baton (3x2 to 3x1), and shields (3x6 to 3x5).
 
-This mod is language-independent.
+This mod is language-independent and should have a low priority to avoid interference with other weapon mods.
+
+Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition.
 
 Mod home: https://github.com/Sheep-y/xenonauts-mods
 

@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
 <ModInfo>
-  <Name>Sheepy's Rifle Burst Tweak</Name>
-  <VisibleName>Rifle Burst Tweak</VisibleName>
+  <Name>Sheepy's Rifle Burst Fire Tweaks</Name>
+  <VisibleName>Rifle Burst Fire Tweaks</VisibleName>
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>Tweak all rifle's burst fire: slightly incraese TU, moderately increase accuracy, and add a small mitigation to rifles.
 
-This mod should be placed above Xenonauts Fix Pack but below whole-game translations, because it updates rifle descriptions.
+This mod may be replaced by the "Burst Mode Rifle Tweaks" mod.  You may keep this mod enabled, but this won't have any effect as long as that mod is active.
+This mod should be placed below whole-game translations, preferably above Xenonauts Fix Pack, because this mod replaces rifle descriptions.
+
+Sheepy's tweaks are mechanically compatible with each other in alphabetic order, other than noted above, and are compatible with and without Community Edition.
 
 Mod home: https://github.com/Sheep-y/xenonauts-mods
 
