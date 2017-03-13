@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Config>
+	<LOS>
+		<LOSAngle MODMERGEATTRIBUTE="update">135</LOSAngle>
+	</LOS>
+</Config>
