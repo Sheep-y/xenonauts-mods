@@ -5,17 +5,15 @@
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>Add 3-round burst to hand-held machine guns.
-
-As a side effect, machine guns' full burst now fires 3 volleys of 3 bullets, and a 10/10 clip means 10 volleys.
-
-This mod should be placed below whole-game translations, preferably above Xenonauts Fix Pack, because this mod replaces heavy weapon descriptions.
-
-Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition.
-The "Recoil 60 Tweaks" mod, if enabled, will still have effect on the ground, despite that text descriptions will say recoil 70 because of this mod.
-
-Mod home: https://github.com/Sheep-y/xenonauts-mods
-
-* For vehicle burst fire, please try Armoured Assault.
-
-</Description>
+&#10;
+&#10;As a side effect, machine guns' full burst now fires 3 volleys of 3 bullets, and a 10/10 clip means 10 volleys.
+&#10;
+&#10;This mod should be placed below whole-game translations, preferably above Xenonauts Fix Pack, because this mod replaces heavy weapon descriptions.
+&#10;
+&#10;Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition.
+&#10;The "Recoil 60 Tweaks" mod, if enabled, will still have effect on the ground, despite that text descriptions will say recoil 70 because of this mod.
+&#10;
+&#10;Mod home: https://github.com/Sheep-y/xenonauts-mods
+&#10;
+&#10;* For vehicle burst fire, please try Armoured Assault.</Description>
 </ModInfo>

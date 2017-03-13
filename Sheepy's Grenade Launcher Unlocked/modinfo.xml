@@ -5,16 +5,14 @@
   <Version>0.9</Version>
   <Author>Sheepy</Author>
   <Description>Add a grenade launcher with a good range.
-  
-The grenade it fires is less powerful than rocket or hand thrown grenades, but is lighter and has a higher rate of fire.
+&#10;
+&#10;The grenade it fires is less powerful than rocket or hand thrown grenades, but is lighter and has a higher rate of fire.
 The launcher equip rocket by default because of system limitation, but on the ground it only use 40mm grenades.
-
-This is the unlocked version with all 40mm grenades enabled, suitable for mid-game introduction.
-
-Attempting to arm it with rocket, or arm rocket launcher with 40mm, will be corrected to explosive warheads by the soldier.
+&#10;
+&#10;This is the unlocked version with all 40mm grenades enabled, suitable for mid-game introduction.
+&#10;
+&#10;Attempting to arm it with rocket, or arm rocket launcher with 40mm, will be corrected to explosive warheads by the soldier.
 Should be compatible with Skaian's Aegis Armour and Kabill's Cybernetic Armour, but have not tested.
-
-Mod home: https://github.com/Sheep-y/xenonauts-mods
-
-</Description>
+&#10;
+&#10;Mod home: https://github.com/Sheep-y/xenonauts-mods</Description>
 </ModInfo>

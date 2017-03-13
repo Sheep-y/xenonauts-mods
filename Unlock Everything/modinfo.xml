@@ -5,11 +5,13 @@
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>This mod unlocks all weapons, armours, and equipments in the vanilla game, intended as a test platform for other mods.
-
-Aircrafts and vehicles are enabled immediately after Alien Invasion, and takes only 1 credit + 1 man day to produce.
-Each hanger also accomodates one vechile, which should be enough for testing purpose.
-
-I can't seem to unlock advanced buildings.  If you know how please let me know.
-
-This mod is limited to X:CE.  It supports Armored Assault and should be placed above it, but does not depend on it.</Description>
+&#10;
+&#10;Aircrafts and vehicles are enabled immediately after Alien Invasion, and takes only 1 credit + 1 man day to produce.
+Each hanger also accomodates one vechile, to allow vehicle when starting a new game.
+&#10;
+&#10;I can't seem to unlock advanced buildings.  If you know how please let me know.
+&#10;
+&#10;This mod is limited to X:CE.  It supports Armored Assault and should be placed above it, but does not depend on it.
+&#10;
+&#10;Mod home: https://github.com/Sheep-y/xenonauts-mods</Description>
 </ModInfo>

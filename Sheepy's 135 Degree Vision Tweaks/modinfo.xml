@@ -5,13 +5,11 @@
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>Increase field of vision of Basic, Jackal, Buzzard, Hunter, Hyperion, and Aegis (if enabled and lower priority) to 135 degree, allowing three soldiers to cover all angles.
-Vision cones of Wolf, Scimiter, and Predator remains unchanged at 90 or 60 degrees.
-
-This mod is language-independent.  Compatible with Aegis Armour, but incompatible with Kabill's Cybernetic Armour because those has their own set of angle of views.
-
-Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition..
-
-Mod home: https://github.com/Sheep-y/xenonauts-mods
-
-</Description>
+Vision cones of Wolf, Scimiter, and Predator remains unchanged at 90 or 60 degrees.  Aliens' vision cone also updated.
+&#10;
+&#10;This mod is language-independent.  Compatible with Aegis Armour, but incompatible with Kabill's Cybernetic Armour because those has their own set of angle of views.
+&#10;
+&#10;Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition..
+&#10;
+&#10;Mod home: https://github.com/Sheep-y/xenonauts-mods</Description>
 </ModInfo>

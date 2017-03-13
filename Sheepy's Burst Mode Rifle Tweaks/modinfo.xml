@@ -6,13 +6,11 @@
   <Author>Sheepy</Author>
   <Description>This mod make all rifles always show in 2 round burst, and burst mode becomes 3 x 2 round burst.
 They burn ammos faster, but also deal higher suppression and more reliable damage (but not necessary more).
-
-This mod replace the "Rifle Burst Fire Tweaks" mod.  You may keep that mod enabled, but it won't have any effect as long as this mod is active.
+&#10;
+&#10;This mod replace the "Rifle Burst Fire Tweaks" mod.  You may keep that mod enabled, but it won't have any effect as long as this mod is active.
 This mod should be placed below whole-game translations, preferably above Xenonauts Fix Pack, because this mod replaces rifle descriptions.
-
-Sheepy's tweaks are mechanically compatible with each other in alphabetic order, other than noted above, and are compatible with and without Community Edition.
-
-Mod home: https://github.com/Sheep-y/xenonauts-mods
-
-</Description>
+&#10;
+&#10;Sheepy's tweaks are mechanically compatible with each other in alphabetic order, other than noted above, and are compatible with and without Community Edition.
+&#10;
+&#10;Mod home: https://github.com/Sheep-y/xenonauts-mods</Description>
 </ModInfo>

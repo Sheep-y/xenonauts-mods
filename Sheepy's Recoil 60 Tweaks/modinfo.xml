@@ -5,13 +5,11 @@
   <Version>1.0</Version>
   <Author>Sheepy</Author>
   <Description>Reduce the recoil of all machine guns and rockets to 60.
-
-This mod should be placed below whole-game translations, preferably above Xenonauts Fix Pack, because this mod replaces heavy weapon descriptions.
-
-Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition.
-The "Machine Gun 3 Round Burst Tweaks" mod, if enabled, will replace description text to recoil 70, but this mod will still be effective on the ground.
-
-Mod home: https://github.com/Sheep-y/xenonauts-mods
-
-</Description>
+&#10;
+&#10;This mod should be placed below whole-game translations, preferably above Xenonauts Fix Pack, because this mod replaces heavy weapon descriptions.
+&#10;
+&#10;Sheepy's tweaks are mechanically compatible with each other in alphabetic order, and are compatible with and without Community Edition.
+&#10;The "Machine Gun 3 Round Burst Tweaks" mod, if enabled, will replace description text to recoil 70, but this mod will still be effective on the ground.
+&#10;
+&#10;Mod home: https://github.com/Sheep-y/xenonauts-mods</Description>
 </ModInfo>
