@@ -10,7 +10,7 @@ function loadFile() {
       data = new TextDecoder( 'utf-8' ).decode( new DataView( data ) );
       data = cleanup( data );
       data = JSON.parse( data ).map( line => { try {
-         return JSON.parse( line ); 
+         return JSON.parse( line );
       } catch ( error ) {
          return { error };
       } } );
@@ -18,7 +18,7 @@ function loadFile() {
       showEvents( data );
    };
    reader.readAsArrayBuffer( file );
-   
+
    function cleanup ( data ) {
       data = data.replace( /Xenonauts\.GroundCombat\.Systems\.ActionRecorderSystem\+/g, '' );
       data = data.replace( /Xenonauts\.GroundCombat\.(Events\.)?/g, '' );
@@ -40,7 +40,7 @@ function loadFile() {
       const main = document.querySelector( '#events tbody' ), t = '$type';
       let html = '', turn = 1;
       main.innerHTML = '';
-      
+
       log.forEach( ( line, i ) => {
          let command, guard = line.Guard, event = line.Event, rand = line.Random || [,,];
 
@@ -50,7 +50,7 @@ function loadFile() {
          delete line.Random;
          delete line.Guard;
          delete line.Event;
-         if ( Object.keys( line ).length ) console.warn( "Unknown log prop" );
+         if ( hasProp( line ) ) console.warn( "Unknown log prop" );
 
          if ( guard ) {
             if ( ! [ 'TerminatorGuard', 'EventsGuard' ].includes( guard[t] ) )
@@ -59,14 +59,12 @@ function loadFile() {
                html += guard.WaitOn.map( txt => txt.replace( /(To)?Event$/g, '' ) ).join( ',<br>' );
             delete guard[t];
             delete guard.WaitOn;
-            if ( Object.keys( guard ).length ) console.warn( "Unknown Guard prop" );
+            if ( hasProp( guard ) ) console.warn( "Unknown Guard prop" );
          }
 
          if ( ! event ) {
-            html += `<td>${line[t]}<td><td>`;
+            html += `<td>${line[t]||''}<td><td>`;
             html += showDetails( line );
-            if ( Object.keys( line ).length )
-               html += JSON.stringify( line );
 
          } else {
             let command = ( event.UserInitiated ? '[PC] ' : '[AI] ' ) + event[t].replace( /(ToEvent|Event |Event|Command)$/, '' );
@@ -85,7 +83,7 @@ function loadFile() {
             delete event.Actor;
             delete event.Overwatcher;
             html += showDetails( event );
-            
+
             if ( command.endsWith( 'PlayerPassTurn' ) )
                ++turn;
          }
@@ -96,17 +94,27 @@ function loadFile() {
 
    function showDetails( event ) {
       let html = '';
-      if ( event.Conflict ) {
-         if ( Object.keys( event ).length > 1 ) console.warn( "Additional conflicts" );
-         event = event.Conflict;
-      }
-      if ( Object.keys( event ).length ) {
-         html += '<table>';
+      if ( hasProp( event ) === 1 )
          for ( var prop in event )
-            html += `<tr><th>${prop}<td>` + JSON.stringify( event[prop] );
+            if ( typeof( event[ prop ] ) === 'object' )
+               event = event[ prop ];
+      if ( hasProp( event ) ) {
+         html += '<table>';
+         html += listDetails( event );
          html += '</table>';
       }
       return html;
+   }
+
+   function listDetails( obj ) {
+      let html = '';
+      for ( var prop in obj )
+         html += `<tr><th>${prop}<td>` + JSON.stringify( obj[prop] );
+      return html;
+   }
+
+   function hasProp( obj ) {
+      return Object.keys( obj ).length
    }
 }
 
