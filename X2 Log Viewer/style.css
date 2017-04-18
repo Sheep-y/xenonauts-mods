@@ -48,9 +48,14 @@ body > table {
       background: #004;
       }
    body > table > tbody > tr > th ,
-   body > table > tbody > tr > td { 
-      border: 1px solid #444; 
+   body > table > tbody > tr > td {
+      border: 1px solid #444;
       }
+
+table table th {
+   text-align: right;
+   white-space: nowrap;
+   }
 
 #summary {
    position: absolute;
