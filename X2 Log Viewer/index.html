@@ -9,6 +9,7 @@
    <div style='display:none'>
 <![endif]-->
    <h1> Log Viewer for Xenonauts 2 Public Combat Test </h1>
+   <noscript><h1> No JavaScript.  Please Enable JavaScript. </h1></noscript>
    <label>
       Browse or drag and drop log file here:
       <input type='file' onchange='loadFile()' accept='.rec'>
@@ -40,4 +41,8 @@
    </table>
    <script src='pako_inflate.min.js'></script>
    <script src='code.js'></script>
+   <script>
+if ( ! window.TextDecoder )
+   document.body.innerHTML = '<h1>This browser does not support <a href="https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder">Encoding API</a>.<br>Try latest Chrome, Firefox, or Opera.';
+   </script>
 </body></html>

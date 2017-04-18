@@ -129,7 +129,4 @@ function loadFile() {
    }
 }
 
-if ( ! window.TextDecoder )
-   document.body.innerHTML = '<h1>This browser does not support <a href="https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder">Encoding API</a>.<br>Try latest Chrome, Firefox, or Opera.';
-
 loadFile();
