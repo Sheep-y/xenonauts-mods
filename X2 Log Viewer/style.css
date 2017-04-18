@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+html, body { background: black; color: white; }
+table { border-collapse: collapse; border-spacing: 0; empty-cells: show; }
+body > table { margin: 1em 0; }
+thead { background: #008; }
+body > table > tbody > tr { background: #001; }
+tbody tr:nth-child(even) { background: #004; }
+th, td { border: 1px solid #444; padding: 0 1ex; text-align: left; vertical-align: top; }
+table table th, table table td { border: 0 none; }
