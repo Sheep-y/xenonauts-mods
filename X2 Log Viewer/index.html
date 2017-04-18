@@ -1,0 +1,151 @@
+<!DOCTYPE html><html><head><meta charset="utf-8" />
+   <title> Log Viewer for Xenonauts 2 Public Combat Test </title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <style>
+      * { box-sizing: border-box; }
+      html, body { background: black; color: white; }
+      table { border-collapse: collapse; border-spacing: 0; empty-cells: show; margin: 1em 0; }
+      thead { background: #008; }
+      tbody tr { background: #001; }
+      tbody tr:nth-child(even) { background: #004; }
+      th, td { padding: 0 1ex; text-align: left; border: 1px solid #444; }
+   </style>
+</head><body>
+<!--[if lte IE 11]>
+   <h1> Please upgrade browser. </h1>
+   <div style="display:none">
+<![endif]-->
+   <h1> Log Viewer for Xenonauts 2 Public Combat Test </h1>
+   <label>
+      Browse or drag and drop log file here:
+      <input type='file' onchange='loadFile()'/>
+   </label>
+   <table id="summary">
+      <thead><tr>
+         <th> File
+         <th> Time
+         <th> Random Seed
+         <th> Turns
+         <th> No. of events
+      <tbody><tr>
+         <td><td><td><td><td>
+   </table>
+   <table id="events">
+      <thead><tr>
+         <th>ID
+         <th>Turn
+         <th>Random
+         <th>Guard
+         <th>Type
+         <th>Actor
+         <th>Details
+      <tbody>
+   </table>
+   <script src="pako_inflate.min.js"></script>
+   <script>
+function loadFile() { 'use strict';
+   const file = document.querySelector( 'input' ).files[0];
+   if ( ! file ) return;
+
+   const reader = new FileReader();
+   reader.onload = ( event ) => {
+      let data = pako.inflate( event.target.result ).buffer;
+      data = new TextDecoder( 'utf-8' ).decode( new DataView( data ) );
+      data = cleanup( data );
+      data = JSON.parse( data ).map( line => { try {
+         return JSON.parse( line ); 
+      } catch ( error ) {
+         return { error };
+      } } );
+      showInfo( file, data );
+      showEvents( data );
+   };
+   reader.readAsArrayBuffer( file );
+   
+   function cleanup ( data ) {
+      data = data.replace( /Xenonauts\.GroundCombat\.Systems\.ActionRecorderSystem\+/g, '' );
+      data = data.replace( /Xenonauts\.GroundCombat\.(Events\.)?/g, '' );
+      data = data.replace( /ReactionResponseEvent\b/g, '' );
+      data = data.replace( /,\\"\$type\\":\\"System\.Collections\.Generic\.List`1\[\[CoverInfo, Assembly-CSharp, Version=0\.0\.0\.0, Culture=neutral, PublicKeyToken=null\]\]\\"/g, '' );
+      data = data.replace( /,\\"\$type\\":\\"Artitas\.GlobalEntity\\"/g, '' );
+      return data;
+   }
+
+   function showInfo ( file, log ) {
+      const display = document.querySelectorAll( '#summary td' );
+      display[0].textContent = file.name;
+      display[1].textContent = new Date( file.lastModified ).toISOString();
+      display[2].textContent = log[0].Random[0];
+      display[4].textContent = log.length;
+   }
+
+   function showEvents ( log ) {
+      const main = document.querySelector( '#events tbody' ), t = '$type';
+      let html = '', turn = 1;
+      main.innerHTML = '';
+      
+      log.forEach( ( line, i ) => {
+         let command, guard = line.Guard, event = line.Event, rand = line.Random || [,,];
+
+         html += `<tr><td>${i}<td>${turn}<td>${rand[1]},${rand[2]}<td>`;
+
+         delete line[t];
+         delete line.Random;
+         delete line.Guard;
+         delete line.Event;
+         if ( Object.keys( line ).length ) console.warn( "Unknown log prop" );
+
+         if ( guard ) {
+            if ( ! [ 'TerminatorGuard', 'EventsGuard' ].includes( guard[t] ) )
+               html += guard[t] + '<br>';
+            if ( guard.WaitOn )
+               html += guard.WaitOn.map( txt => txt.replace( /(To)?Event$/g, '' ) ).join( ',<br>' );
+            delete guard[t];
+            delete guard.WaitOn;
+            if ( Object.keys( guard ).length ) console.warn( "Unknown Guard prop" );
+         }
+
+         if ( ! event ) {
+            html += `<td>${line[t]}<td><td>`;
+            html += JSON.stringify( line );
+            if ( Object.keys( line ).length )
+               html += JSON.stringify( line );
+
+         } else {
+            let command = ( event.UserInitiated ? '[PC] ' : '[AI] ' ) + event[t].replace( /(ToEvent|Event |Event|Command)$/, '' );
+            let actor = event.Actor || event.Overwatcher;
+            if ( actor && actor['$content'] )
+               actor = actor['$content'];
+            else if ( actor && actor['$ref'] )
+               actor = '$ref' + actor['$ref'];
+            else
+               actor = actor ? JSON.stringify( actor ) : '';
+
+            html += `<td>${command}<td>${actor}<td>`;
+            delete event[t];
+            delete event.UserInitiated;
+            delete event.Consumed;
+            delete event.Actor;
+            delete event.Overwatcher;
+
+            if ( event.Conflict ) {
+               if ( Object.keys( event ).length > 1 ) console.warn( "Additional conflicts" );
+               event = event.Conflict;
+            }
+
+            for ( var prop in event ) {
+               html += prop + ': ' + JSON.stringify( event[prop] ) + '<br>';
+            }
+            
+            if ( command.endsWith( 'PlayerPassTurn' ) )
+               ++turn;
+         }
+      } );
+      main.insertAdjacentHTML( 'beforeend', html );
+      document.querySelectorAll( '#summary td' )[3].textContent = turn;
+   }
+}
+loadFile();
+   </script>
+</body></html>
