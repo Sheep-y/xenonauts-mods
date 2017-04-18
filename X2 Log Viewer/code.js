@@ -94,10 +94,7 @@ function loadFile() {
 
    function showDetails( event ) {
       let html = '';
-      if ( hasProp( event ) === 1 )
-         for ( var prop in event )
-            if ( typeof( event[ prop ] ) === 'object' )
-               event = event[ prop ];
+      event = trimLayer( event );
       if ( hasProp( event ) ) {
          html += '<table>';
          html += listDetails( event );
@@ -108,13 +105,27 @@ function loadFile() {
 
    function listDetails( obj ) {
       let html = '';
-      for ( var prop in obj )
-         html += `<tr><th>${prop}<td>` + JSON.stringify( obj[prop] );
+      for ( var prop in obj ) {
+         html += `<tr><th>${prop}<td>`;
+         const val = trimLayer( obj[prop] );
+         if ( Array.isArray( val ) )
+            html += '{[' + val.map( JSON.stringify ).join( ',<br>' ) + ']}';
+         else
+            html += JSON.stringify( obj[prop] );
+      }
       return html;
    }
 
    function hasProp( obj ) {
       return Object.keys( obj ).length
+   }
+
+   function trimLayer( obj ) {
+      if ( obj && typeof( obj ) === 'object' && hasProp( obj ) === 1 )
+         for ( var prop in obj )
+            if ( typeof( obj[ prop ] ) === 'object' )
+                 return obj[prop];
+      return obj;
    }
 }
 
