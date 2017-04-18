@@ -1,19 +1,19 @@
-<!DOCTYPE html><html><head><meta charset="utf-8" />
+<!DOCTYPE html><html><head><meta charset='utf-8'>
    <title> Log Viewer for Xenonauts 2 Public Combat Test </title>
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="stylesheet" href="style.css" />
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' href='style.css'>
 </head><body>
 <!--[if lte IE 11]>
    <h1> Please upgrade browser. </h1>
-   <div style="display:none">
+   <div style='display:none'>
 <![endif]-->
    <h1> Log Viewer for Xenonauts 2 Public Combat Test </h1>
    <label>
       Browse or drag and drop log file here:
-      <input type='file' onchange='loadFile()'/>
+      <input type='file' onchange='loadFile()' accept='.rec'>
    </label>
-   <table id="summary">
+   <table id='summary'>
       <thead><tr>
          <th> File
          <th> Time
@@ -23,10 +23,10 @@
       <tbody><tr>
          <td><td><td><td><td>
       <!-- <tr>
-         <td colspan=99 style="text-align:right">
+         <td colspan=99 style='text-align:right'>
             <label> <input type='checkbox' checked> Combine moves </label> -->
    </table>
-   <table id="events">
+   <table id='events'>
       <thead><tr>
          <th>ID
          <th>Turn
@@ -37,6 +37,6 @@
          <th>Details
       <tbody>
    </table>
-   <script src="pako_inflate.min.js"></script>
-   <script src="code.js"></script>
+   <script src='pako_inflate.min.js'></script>
+   <script src='code.js'></script>
 </body></html>
