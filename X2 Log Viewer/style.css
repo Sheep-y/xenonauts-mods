@@ -42,11 +42,29 @@ body > table {
    margin: 1em 0;
    }
    body > table > tbody > tr {
-      background: #001;
+      background: #000020;
       }
-   body > table > tbody > tr:nth-child(even) {
-      background: #004;
+      body > table > tbody > tr:nth-child(even) {
+         background: #000040;
+         }
+      body > table > tbody > tr > td:first-child {
+         border-left : 1px solid #66F;
+         }
+      body > table > tbody > tr > td:last-child {
+         border-right: 1px solid #66F;
+         }
+   body > table > tbody > tr.AI {
+      background: #180000;
       }
+      body > table > tbody > tr.AI:nth-child(even) {
+         background: #340000;
+         }
+      body > table > tbody > tr.AI > td:first-child {
+         border-left : 1px solid #C44;
+         }
+      body > table > tbody > tr.AI > td:last-child {
+         border-right: 1px solid #C44;
+         }
    body > table > tbody > tr > th ,
    body > table > tbody > tr > td {
       border: 1px solid #444;
