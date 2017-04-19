@@ -11,6 +11,9 @@ html, body {
    padding: 0;
    width: 100%;
    }
+   a {
+      color: yellow;
+      }
 
 body {
    padding: 1em;
