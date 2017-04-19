@@ -38,11 +38,11 @@ function loadFile() {
 
    function showEvents ( log ) {
       const main = document.querySelector( '#events tbody' ), t = '$type';
-      let html = '', turn = 1;
+      let htmltxt = '', turn = 1;
       main.innerHTML = '';
 
       log.forEach( ( line, i ) => {
-         let command, guard = line.Guard, event = line.Event, rand = line.Random || [,,];
+         let command, guard = line.Guard, event = line.Event, rand = line.Random || [,,], html = '';
 
          html += `<tr><td>${i}<td>${turn}<td>${rand[1]},${rand[2]}<td>`;
 
@@ -76,19 +76,21 @@ function loadFile() {
             else
                actor = actor ? JSON.stringify( actor ) : '';
 
+            if ( ! event.UserInitiated )
+               html = html.replace( /^<tr\b/, '<tr class="AI"' );
             html += `<td>${command}<td>${actor}<td>`;
             delete event[t];
             delete event.UserInitiated;
             delete event.Consumed;
             delete event.Actor;
             delete event.Overwatcher;
-            html += showDetails( event );
+            htmltxt += html + showDetails( event );
 
             if ( command.endsWith( 'PlayerPassTurn' ) )
                ++turn;
          }
       } );
-      main.insertAdjacentHTML( 'beforeend', html );
+      main.insertAdjacentHTML( 'beforeend', htmltxt );
       document.querySelectorAll( '#summary td' )[3].textContent = turn;
    }
 
