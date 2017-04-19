@@ -1,6 +1,6 @@
 'use strict';
 
-function loadFile() {
+function loadFile () {
    const file = document.querySelector( 'input' ).files[0];
    if ( ! file ) return;
 
@@ -42,7 +42,7 @@ function loadFile() {
       main.innerHTML = '';
 
       log.forEach( ( line, i ) => {
-         let command, guard = line.Guard, event = line.Event, rand = line.Random || [,,], html = '';
+         let guard = line.Guard, event = line.Event, rand = line.Random || [,,], html = '';
 
          html += `<tr><td>${i}<td>${turn}<td>${rand[1]},${rand[2]}<td>`;
 
@@ -63,6 +63,7 @@ function loadFile() {
          }
 
          if ( ! event ) {
+            html = html.replace( /^<tr\b/, '<tr class="SYS"' );
             html += `<td>${line[t]||''}<td><td>`;
             html += showDetails( line );
 
@@ -84,17 +85,18 @@ function loadFile() {
             delete event.Consumed;
             delete event.Actor;
             delete event.Overwatcher;
-            htmltxt += html + showDetails( event );
+            html += showDetails( event );
 
             if ( command.endsWith( 'PlayerPassTurn' ) )
                ++turn;
          }
+         htmltxt += html;
       } );
       main.insertAdjacentHTML( 'beforeend', htmltxt );
       document.querySelectorAll( '#summary td' )[3].textContent = turn;
    }
 
-   function showDetails( event ) {
+   function showDetails ( event ) {
       let html = '';
       event = trimLayer( event );
       if ( hasProp( event ) ) {
@@ -105,7 +107,7 @@ function loadFile() {
       return html;
    }
 
-   function listDetails( obj ) {
+   function listDetails ( obj ) {
       let html = '';
       for ( var prop in obj ) {
          html += `<tr><th>${prop}<td>`;
@@ -118,11 +120,11 @@ function loadFile() {
       return html;
    }
 
-   function hasProp( obj ) {
-      return Object.keys( obj ).length
+   function hasProp ( obj ) {
+      return Object.keys( obj ).length;
    }
 
-   function trimLayer( obj ) {
+   function trimLayer ( obj ) {
       if ( obj && typeof( obj ) === 'object' && hasProp( obj ) === 1 )
          for ( var prop in obj )
             if ( typeof( obj[ prop ] ) === 'object' )

@@ -11,6 +11,9 @@ html, body {
    padding: 0;
    width: 100%;
    }
+   a {
+      color: yellow;
+      }
 
 body {
    padding: 1em;
@@ -47,6 +50,10 @@ body > table {
       body > table > tbody > tr:nth-child(even) {
          background: #000040;
          }
+      body > table > tbody > tr > th ,
+      body > table > tbody > tr > td {
+         border: 1px solid #444;
+         }
       body > table > tbody > tr > td:first-child {
          border-left : 1px solid #66F;
          }
@@ -65,9 +72,11 @@ body > table {
       body > table > tbody > tr.AI > td:last-child {
          border-right: 1px solid #C44;
          }
-   body > table > tbody > tr > th ,
-   body > table > tbody > tr > td {
-      border: 1px solid #444;
+   body > table > tbody > tr.SYS > td:first-child {
+      border-left : 1px solid #0B0;
+      }
+   body > table > tbody > tr.SYS > td:last-child {
+      border-right: 1px solid #0B0;
       }
 
 table table th {
