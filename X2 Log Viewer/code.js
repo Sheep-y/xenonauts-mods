@@ -63,6 +63,7 @@ function loadFile () {
          }
 
          if ( ! event ) {
+            html = html.replace( /^<tr\b/, '<tr class="SYS"' );
             html += `<td>${line[t]||''}<td><td>`;
             html += showDetails( line );
 
@@ -76,7 +77,7 @@ function loadFile () {
             else
                actor = actor ? JSON.stringify( actor ) : '';
 
-            if ( event.UserInitiated === false )
+            if ( ! event.UserInitiated )
                html = html.replace( /^<tr\b/, '<tr class="AI"' );
             html += `<td>${command}<td>${actor}<td>`;
             delete event[t];
@@ -84,11 +85,12 @@ function loadFile () {
             delete event.Consumed;
             delete event.Actor;
             delete event.Overwatcher;
-            htmltxt += html + showDetails( event );
+            html += showDetails( event );
 
             if ( command.endsWith( 'PlayerPassTurn' ) )
                ++turn;
          }
+         htmltxt += html;
       } );
       main.insertAdjacentHTML( 'beforeend', htmltxt );
       document.querySelectorAll( '#summary td' )[3].textContent = turn;
